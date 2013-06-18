@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['developer@sepcot.com']
   spec.description   = %q{Currency Conversion using the European Central Bank's Euro foreign exchange reference rates.}
   spec.summary       = %q{Currency Conversion using the European Central Bank's Euro foreign exchange reference rates.}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/msepcot/ecb-currency_converter'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
