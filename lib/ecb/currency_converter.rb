@@ -179,7 +179,7 @@ module ECB
       # Load exchange rate data based on the date requested.
       #--
       # NOTE: should we just load the 90-day historical file? It includes the
-      #   most recent date, but takes 2-3x the time to load (.6 or .9 seconds,
+      #   most recent date, but takes 2-3x the time to load (.6 to .9 seconds,
       #   compared to .3 for the daily feed in local tests).
       # NOTE: this loads the 90-day historical file even if the requested date
       #   is outside the 90-day window.
